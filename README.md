@@ -1,6 +1,16 @@
 # Vizbl MCP connector
 
-Connect Claude and other AI assistants to [Vizbl](https://vizbl.com) and run product visualization for your store from the chat: publish 3D models with AR links and QR codes, set up rugs, flooring and wall art, configure AI try-on, and get install code for Shopify, WooCommerce, BigCommerce, Wix or a custom site.
+Connect Claude and other AI assistants to [Vizbl](https://vizbl.com) and set up try-on widgets for your store from the chat. Ask in plain words ("add a try-in-room button to my rug pages", "make wall art buttons for these 40 posters") and the assistant prepares the products in Vizbl and returns the snippet or Shopify setting for each product page.
+
+| Widget | What the shopper does | What you give Vizbl |
+| --- | --- | --- |
+| Rugs | Sees the rug at true size in a sample interior or a photo of their own room, then on their floor in AR via QR code | A flat rug photo and its size |
+| Flooring | Tries a floor covering in a room scene | Your catalog, set up by the Vizbl team |
+| Wall Art | Hangs a poster or print on the wall at its real print size | The artwork image and print size, in the button |
+| AI Try-On | Tries clothing or accessories on a photo of themselves: dresses, tops, trousers, shoes, hats, glasses, necklaces, watches, bags, belts | A product photo |
+| Core AR | Places furniture, lamps or decor in their room through the phone camera | A 3D file, or a CAD file to convert |
+
+Widgets work on Shopify, WooCommerce, BigCommerce, Wix and custom sites.
 
 Vizbl runs a **remote** [Model Context Protocol](https://modelcontextprotocol.io) server. There is nothing to install.
 
