@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.VIZBL/vizbl",
+  "title": "Vizbl",
+  "description": "3D, AR and AI try-on for e-commerce: publish models, AR links, rugs, wall art, store widgets.",
+  "repository": {
+    "url": "https://github.com/VIZBL/vizbl-mcp",
+    "source": "github"
+  },
+  "websiteUrl": "https://developer.vizbl.com/docs/mcp",
+  "version": "2.0.1",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.vizbl.com/mcp"
+    }
+  ]
+}
